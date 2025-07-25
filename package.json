@@ -1,0 +1,17 @@
+{
+  "name": "contact-la-backend",
+  "version": "1.0.0",
+  "description": "Backend para registrar la información de contacto del portfolio",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "larcondo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
